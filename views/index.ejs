@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body>
+
+    <h1>Look Up a Gif!</h1>
+    <h2>(search for any word and i will give you a gif to best display that word)</h2>
+
+    <div class="container">
+      <fieldset>
+        <form action="/gif" method="post">
+          <input name="search" type="text" class="form-control" placeholder="Enter any word"required>
+          <input type="submit" class="btn btn-outline-secondary ml-3" value="Gimme GIF!">
+        </form>
+        <% if(gifUrl !== null){ %>
+
+            <!--- limited the width of all gifs here -->
+            <img src='<%= gifUrl %>', width="400px" />
+            <% } %>
+            <% if(error !== null){ %>
+            <p>
+                <%= error %>
+            </p>
+            <% } %>
+      </fieldset>
+
+    </div>
+    <div>
+        
+
+
+    </div>
+
+</body>
+
+</body>
+
+</html>

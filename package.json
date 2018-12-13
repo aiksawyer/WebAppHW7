@@ -1,0 +1,25 @@
+{
+  "name": "ex6",
+  "version": "1.0.0",
+  "description": "This app will allow user to search for a GIF in the Giphy database based on an input word.",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "ejs": "^2.6.1",
+    "express": "^4.16.4",
+    "socket.io": "^2.1.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aiksawyer/WebAppHW6.git"
+  },
+  "bugs": {
+    "url": "https://github.com/aiksawyer/WebAppHW6/issues"
+  },
+  "homepage": "https://github.com/aiksawyer/WebAppHW6#readme"
+}
