@@ -1,6 +1,6 @@
-# A GIF Lookup App
+# A GIF Guesser App
 
-This app will allow user to search for a GIF in the Giphy database based on an input word.
+This app will allow users to play a guessing game with GIFs. It emplys Giphy API
 
 To set up:
 1. Download this repo
@@ -9,7 +9,7 @@ To set up:
 4. Get API key from Giphy and replace the "*******" line in app.js file with it
 5. Start the app by "node app.js" command in Terminal
 6. Log in or sign up.
-7. Start using the app to get GIFs.
+7. Write one-word prompts into the chat and see if you can guess what's depicted in the GIF.
 
 Some words to test: "applause", "WTF", "no", "cat".
 
